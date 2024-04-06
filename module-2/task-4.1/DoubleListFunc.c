@@ -1,5 +1,7 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include "Person.h"
+#include "PersonFunc.h"
 #include "DoubleList.h"
 
 struct Item* InsertValue(Person val, struct Item* head) {
